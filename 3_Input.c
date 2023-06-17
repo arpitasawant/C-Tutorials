@@ -7,7 +7,7 @@ int main()
     scanf("%d",&age);
     printf("age is: %d",age);*/
 
-    //Sum of two numbers
+    //Addition of two numbers
 
     printf("Enter number 1:");
     int a,b;
