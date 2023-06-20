@@ -1,11 +1,12 @@
 //Variables :
 // Variable is the name of a meemory location which stores some data
 
-//Keywords: Reserved words that have special meaning to the compiler=32 keywords in C
+//Keywords: Reserved words that have special meaning to the compiler
+32 keywords in C
 
 /*
 Format Specifiers
-1.Intergers
+1.Integers
 printf("age is %d",age);
 
 2.Real numbers
