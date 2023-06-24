@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*operations percedence
+/*Operations Precedence
 1. !
 2. * / %
 3. +-
