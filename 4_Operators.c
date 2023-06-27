@@ -13,7 +13,8 @@
 
 int main()
 {
-    // Associativity(for same precedence)--> left to right
+    // Associativity
+    //(for same precedence)--> left to right
     int a = 4 * 3 / 6 * 2;
     printf("%d\n", a);
 
