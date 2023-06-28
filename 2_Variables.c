@@ -2,7 +2,7 @@
 // Variable is the name of a meemory location which stores some data
 
 //Keywords: Reserved words that have special meaning to the compiler
-32 keywords in C
+//32 keywords in C
 
 /*
 Format Specifiers
