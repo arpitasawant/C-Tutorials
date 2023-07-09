@@ -15,7 +15,7 @@ printf("value of pi is is %f",pi);
 3.char
 printf("char is %c",ch);
 
-Compilation:
+compilation:
 A computer program that translated C code into machine code
 
 */
