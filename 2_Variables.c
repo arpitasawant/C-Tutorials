@@ -1,12 +1,12 @@
 //Variables :
-// Variable is the name of a meemory location which stores some data
+// Variable is the name of a memory location that stores some data
 
 //Keywords: Reserved words that have special meaning to the compiler
-//32 keywords in C
+//There are 32 keywords in C
 
 /*
 Format Specifiers
-1.Integers
+1. Integers
 printf("age is %d",age);
 
 2.Real numbers
