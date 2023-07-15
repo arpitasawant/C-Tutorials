@@ -3,7 +3,7 @@
 int main()
 {
     /*
-    //User Input:
+    //User Input in C :
     int age;
     printf("Enter age:");
     scanf("%d",&age);
