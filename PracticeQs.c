@@ -54,10 +54,10 @@ int main()
 
      /*6.Write a program to check if a student passed or failed*/
 
-     int marks;
+     /*int marks;
      printf("Enter marks(0-100): ");
      scanf("%d",&marks);
-     /*if(marks>=35 && marks<=100){
+     if(marks>=35 && marks<=100){
       printf("Pass");
      }
      else if(marks>=0 && marks<35){
@@ -70,7 +70,7 @@ int main()
      //Using ternary 
      //marks>=35 ? printf("pass") : printf("fail");
 
-      /*7. Program to give grades to a student*/
+      /*7. Program to give grades to a student
       
       if(marks <= 35){
          printf("C");
@@ -86,6 +86,18 @@ int main()
       }
       else{
          printf("marks should be in 1-100");
+      }*/
+
+      /*8. Program to find if a character entered by user is upper case or not*/
+
+      char ch;
+      printf("Enter character: ");
+      scanf("%s",&ch);
+      if(ch>='A' && ch <= 'Z'){
+         printf("Uppercase");
       }
-    return 0;
+      else{
+         printf("lowecase");
+      }
+      return 0;
 }
