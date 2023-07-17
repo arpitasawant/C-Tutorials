@@ -40,7 +40,7 @@ int main()
 	  	printf("%c is NOT DIGIT.", ch);
 	 }*/
 
-     /*5.print the smallest number*/
+     /*5.print the smallest number
      int a,b;
      scanf("%d",&a);
      scanf("%d",&b);
@@ -50,6 +50,42 @@ int main()
      }
      else{
         printf("Smallest number : %d",b);
+     }*/
+
+     /*6.Write a program to check if a student passed or failed*/
+
+     int marks;
+     printf("Enter marks(0-100): ");
+     scanf("%d",&marks);
+     /*if(marks>=35 && marks<=100){
+      printf("Pass");
      }
+     else if(marks>=0 && marks<35){
+      printf("Fail");
+     }
+     else{
+      printf("wrong marks");
+     }*/
+
+     //Using ternary 
+     //marks>=35 ? printf("pass") : printf("fail");
+
+      /*7. Program to give grades to a student*/
+      
+      if(marks <= 35){
+         printf("C");
+      }
+      else if(marks >= 35 && marks<70){
+         printf("B");
+      }
+      else if(marks >= 70 && marks<90){
+         printf("A");
+      }
+      else if(marks >= 90 && marks<=100){
+         printf("A+");
+      }
+      else{
+         printf("marks should be in 1-100");
+      }
     return 0;
 }
