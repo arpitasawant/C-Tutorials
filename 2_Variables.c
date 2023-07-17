@@ -1,20 +1,21 @@
 //Variables :
-// Variable is the name of a meemory location which stores some data
+// Variable is the name of a memory location that stores some data
 
-//Keywords: Reserved words that have special meaning to the compiler=32 keywords in C
+//Keywords: Reserved words that have special meaning to the compiler
+//There are 32 keywords in C
 
 /*
 Format Specifiers
-1.Intergers
+1. Integers
 printf("age is %d",age);
 
 2.Real numbers
 printf("value of pi is is %f",pi);
 
-3.char
+3.Char
 printf("char is %c",ch);
 
-Compilation:
+compilation:
 A computer program that translated C code into machine code
 
 */

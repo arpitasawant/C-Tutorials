@@ -2,12 +2,14 @@
 
 int main()
 {
-    /*int age;
+    /*
+    //User Input in C :
+    int age;
     printf("Enter age:");
     scanf("%d",&age);
     printf("age is: %d",age);*/
 
-    //Sum of two numbers
+    //Addition of two numbers
 
     printf("Enter number 1:");
     int a,b;

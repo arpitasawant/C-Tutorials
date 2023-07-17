@@ -46,10 +46,10 @@ int main()
      scanf("%d",&b);
      
      if(a<b){
-        printf("Smallest number is: %d",a);
+        printf("Smallest number : %d",a);
      }
      else{
-        printf("Smallest number is: %d",b);
+        printf("Smallest number : %d",b);
      }
     return 0;
 }
