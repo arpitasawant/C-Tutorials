@@ -5,9 +5,22 @@ int main(){
 
     types: 
         for,while,do while
+    i++ use,then increase
+    ++i increase,then use    
+     
     */
-    for(int i=1;i<=5;i++){
+
+   //For loop
+    /*for(int i=1;i<=5;i++){
         printf("Hello Arpita..!\n");
-    }
+    }*/
+
+    //While Loop
+
+    int i=1;
+    while(i<=5){
+        printf("Hello\n");
+        i++;
+    };
     return 0;
 }
