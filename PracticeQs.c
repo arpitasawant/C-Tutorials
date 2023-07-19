@@ -88,7 +88,7 @@ int main()
          printf("marks should be in 1-100");
       }*/
 
-      /*8. Program to find if a character entered by user is upper case or not*/
+      /*8. Program to find if a character entered by user is upper case or not
 
       char ch;
       printf("Enter character: ");
@@ -97,7 +97,30 @@ int main()
          printf("Uppercase");
       }
       else{
-         printf("lowecase");
+         printf("lowercase");
+      }*/
+
+      /*9. Print the numbers from 0 to n,if n is given by user
+
+      int n;
+      printf("Enter Number: \n");
+      scanf("%d",&n);
+
+      for(int i=0;i<=n;i++){
+         printf("%d\n",i);
+      }*/
+
+      /*10. Print sum of first n natural numbers and also print them in reverse*/
+
+      int n;
+      int sum=0;
+      printf("Enter Number: \n");
+      scanf("%d",&n);
+      for(int i=0;i<=n;i++){
+         sum = sum + i;
       }
+      printf("%d","Sum of n natural numbers is: "+sum);
+
+
       return 0;
 }

@@ -13,7 +13,7 @@ int main(){
    //For loop
     /*for(int i=1;i<=5;i++){
         printf("Hello Arpita..!\n");
-    }*/
+    }
 
     //While Loop
 
@@ -21,6 +21,15 @@ int main(){
     while(i<=5){
         printf("Hello\n");
         i++;
-    };
+    };*/
+
+    //do while loop
+
+    int i=1;
+    do{
+        printf("%d\n",i);
+        i++;
+    }while (i<=5);
+    
     return 0;
 }
