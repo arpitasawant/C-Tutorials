@@ -21,7 +21,7 @@ int main(){
     while(i<=5){
         printf("Hello\n");
         i++;
-    };*/
+    };
 
     //do while loop
 
@@ -31,5 +31,14 @@ int main(){
         i++;
     }while (i<=5);
     
+    //Break Statement : exit the loop
+
+    for(int i=1;i<=5;i++){
+        if(i==3){
+            break;
+        }
+        printf("%d\n",i);
+    }
+    printf("end");*/
     return 0;
 }

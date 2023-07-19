@@ -110,7 +110,7 @@ int main()
          printf("%d\n",i);
       }*/
 
-      /*10. Print sum of first n natural numbers and also print them in reverse*/
+      /*10. Print sum of first n natural numbers and also print them in reverse
 
       int n;
       int sum=0;
@@ -127,8 +127,21 @@ int main()
          printf("%d",j);
       }
       
-      printf("\nSum of natural numbers: %d \n",sum);
+      printf("\nSum of natural numbers: %d \n",sum);*/
 
+      /*11. Print the table of a number input by the user
 
+      int n;
+      printf("Enter Number: ");
+      scanf("%d",&n);
+      printf("Table of %d",n);
+
+      for(int i=1;i<=10;i++){
+         printf("\n%d",i*n);
+      }*/
+
+      /*12. Keep taking numbers as input until user enters an odd number*/
+
+      
       return 0;
 }
