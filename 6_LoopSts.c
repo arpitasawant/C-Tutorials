@@ -40,5 +40,17 @@ int main(){
         printf("%d\n",i);
     }
     printf("end");*/
+
+    //Continue Statement : skip to next iteration
+
+    for(int i=1;i<=5;i++){
+        if(i==3){
+            continue;//skip
+        }
+        printf("%d\n",i);
+    }
+
+
+
     return 0;
 }
