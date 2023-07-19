@@ -116,10 +116,18 @@ int main()
       int sum=0;
       printf("Enter Number: \n");
       scanf("%d",&n);
-      for(int i=0;i<=n;i++){
+      if(n==0){
+            printf("Natural numbers starts from 1");
+         }
+      
+      printf("Reverse: ");
+
+      for(int i=1,j=n;i<=n && j>=1;i++,j--){
          sum = sum + i;
+         printf("%d",j);
       }
-      printf("%d","Sum of n natural numbers is: "+sum);
+      
+      printf("\nSum of natural numbers: %d \n",sum);
 
 
       return 0;
