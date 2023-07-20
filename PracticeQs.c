@@ -170,7 +170,7 @@ int main()
    }
    printf("Thank you");*/
 
-   /*14.Print all odd numbers from 5 to 50 
+   /*14.Print all odd numbers from 5 to 50
 
    for (int i = 5; i <= 50; i++)
    {
@@ -189,20 +189,24 @@ int main()
 
    printf("enter f for french and i for indian: ");
    char ch;
-   scanf("%c",&ch);
-   if(ch=='i'){
+   scanf("%c", &ch);
+   if (ch == 'i')
+   {
       namaste();
    }
-   else{
+   else
+   {
       bonjour();
    }
    return 0;
 }
 
-void namaste(){
+void namaste()
+{
    printf("Namaste\n");
 }
 
-void bonjour(){
+void bonjour()
+{
    printf("Bonjour\n");
 }
