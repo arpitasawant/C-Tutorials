@@ -1,6 +1,5 @@
-
-
 #include <stdio.h>
+#include<math.h>
 
 void namaste();
 void bonjour();
@@ -185,7 +184,7 @@ int main()
 
    /*16. Print reverse of table for a number n*/
 
-   /*17. Write a fun that prints namaste if user is indian and bonjour if the user is French*/
+   /*17. Write a fun that prints namaste if user is indian and bonjour if the user is French
 
    printf("enter f for french and i for indian: ");
    char ch;
@@ -197,11 +196,19 @@ int main()
    else
    {
       bonjour();
-   }
+   }*/
+
+   /*18. Use library functions to calculate the square of a number given by user*/
+
+   double n;
+   printf("Enter number: ");
+   scanf("%d",&n);
+   printf("Square of a number is: %d",pow(n,2));
+
    return 0;
 }
 
-void namaste()
+/*void namaste()
 {
    printf("Namaste\n");
 }
@@ -209,4 +216,4 @@ void namaste()
 void bonjour()
 {
    printf("Bonjour\n");
-}
+}*/
