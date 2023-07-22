@@ -12,10 +12,10 @@ printf("age is %d",age);
 2.Real numbers
 printf("value of pi is is %f",pi);
 
-3.Char
+3. Char
 printf("char is %c",ch);
 
-compilation:
+Compilation:
 A computer program that translated C code into machine code
 
 */
