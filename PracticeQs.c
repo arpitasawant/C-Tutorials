@@ -200,10 +200,10 @@ int main()
 
    /*18. Use library functions to calculate the square of a number given by user*/
 
-   double n;
+   int n;
    printf("Enter number: ");
    scanf("%d",&n);
-   printf("Square of a number is: %d",pow(n,2));
+   printf("Square of a number is: %f",pow(n,2));
 
    return 0;
 }
