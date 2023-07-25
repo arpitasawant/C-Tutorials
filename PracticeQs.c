@@ -3,7 +3,8 @@
 
 // void namaste();
 // void bonjour();
-int factorial(int n);
+// int factorial(int n);
+int fibonacci(int n);
 
 int main()
 {
@@ -207,11 +208,21 @@ int main()
    scanf("%d",&n);
    printf("Square of a number is: %f",pow(n,2));*/
 
-   /*19. Factorial of n using recursion*/
+   /*19. Factorial of n using recursion
 
    int f = factorial(3);
-   printf( "Factorial is: %d",f);
+   printf( "Factorial is: %d",f);*/
+
+   /*20. Write a fun to print n terms of the fibonacci sequence*/
    
+   // int a=0,b=1;
+   // printf("%d",a);
+   // printf(" %d ",b);
+   int n;
+   printf("Enter number: ");
+   scanf("%d",&n);
+   int f = fibonacci(n);
+   printf("%d",f);
    return 0;
 }
 
@@ -225,11 +236,27 @@ void bonjour()
    printf("Bonjour\n");
 }*/
 
-int factorial(int n){
+/*int factorial(int n){
    if(n==1){
       return 1;
    }
    int fact = factorial(n-1);
    int num = fact*n;
    return num;
+}*/
+
+int fibonacci(int n){
+   if(n==1 || n==0){
+      if(n==0){
+         return 0;
+      }
+      if(n==1){
+      return 1;
+   }
+   }
+   int fibN1 = fibonacci(n-1);
+   int fibN2 = fibonacci(n-2);
+   int fibN = fibN1 + fibN2;
+   // printf("fib of %d is: %d",n,fibN);
+   return fibN;
 }
