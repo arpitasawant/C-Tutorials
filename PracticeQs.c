@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include<math.h>
 
-void namaste();
-void bonjour();
+// void namaste();
+// void bonjour();
+int factorial(int n);
+
 int main()
 {
    /* 1.Calculate area of a square(side is given)
@@ -198,13 +200,18 @@ int main()
       bonjour();
    }*/
 
-   /*18. Use library functions to calculate the square of a number given by user*/
+   /*18. Use library functions to calculate the square of a number given by user
 
    int n;
    printf("Enter number: ");
    scanf("%d",&n);
-   printf("Square of a number is: %f",pow(n,2));
+   printf("Square of a number is: %f",pow(n,2));*/
 
+   /*19. Factorial of n using recursion*/
+
+   int f = factorial(3);
+   printf( "Factorial is: %d",f);
+   
    return 0;
 }
 
@@ -217,3 +224,12 @@ void bonjour()
 {
    printf("Bonjour\n");
 }*/
+
+int factorial(int n){
+   if(n==1){
+      return 1;
+   }
+   int fact = factorial(n-1);
+   int num = fact*n;
+   return num;
+}
