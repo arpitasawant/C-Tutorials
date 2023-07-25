@@ -213,16 +213,33 @@ int main()
    int f = factorial(3);
    printf( "Factorial is: %d",f);*/
 
-   /*20. Write a fun to print n terms of the fibonacci sequence*/
+   /*20. Write a fun to print n terms of the fibonacci sequence
    
-   // int a=0,b=1;
-   // printf("%d",a);
-   // printf(" %d ",b);
+   
    int n;
    printf("Enter number: ");
    scanf("%d",&n);
    int f = fibonacci(n);
-   printf("%d",f);
+   printf("%d",f);*/
+
+   /*21.Find Output*/
+
+   int *ptr;
+   int x;
+   ptr = &x;
+   *ptr = 0;
+
+   printf("x=%d\n",x);
+   printf("*ptr = %d\n",*ptr);
+
+   *ptr += 5;   
+   printf("x=%d\n",x);
+   printf("*ptr = %d\n",*ptr);
+
+   (*ptr)++;   
+   printf("x=%d\n",x);
+   printf("*ptr = %d\n",*ptr);
+
    return 0;
 }
 
