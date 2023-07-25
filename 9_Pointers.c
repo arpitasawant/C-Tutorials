@@ -44,6 +44,10 @@ printf("%u\n",ptr);*/
 printf("%d\n",age);
 printf("%d\n",*ptr);
 printf("%d\n",*(&age));*/
+ 
+/*Pointer to Pointer
+A variable that stores the memory address of another pointer*/ 
 
+/*Pointers in Function call*/
 return 0;
 }

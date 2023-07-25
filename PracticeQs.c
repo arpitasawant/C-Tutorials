@@ -222,7 +222,7 @@ int main()
    int f = fibonacci(n);
    printf("%d",f);*/
 
-   /*21.Find Output*/
+   /*21.Find Output
 
    int *ptr;
    int x;
@@ -238,7 +238,14 @@ int main()
 
    (*ptr)++;   
    printf("x=%d\n",x);
-   printf("*ptr = %d\n",*ptr);
+   printf("*ptr = %d\n",*ptr);*/
+
+   /*22. Print value of i from pointer to pointer*/
+
+   int i=22;
+   int *ptr = &i;
+   int **pptr = &ptr;
+   printf("%d",**pptr);
 
    return 0;
 }
