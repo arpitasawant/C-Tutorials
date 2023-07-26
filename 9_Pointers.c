@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*Pointers: 
+/*pointers: 
 A variable that stores the memory address of another variable
 
 Syntax:
