@@ -1,5 +1,5 @@
 #include <stdio.h>
-//print hello world
+//profram for hello world
 int main() {
 printf("Hello World!");
 return 0;
