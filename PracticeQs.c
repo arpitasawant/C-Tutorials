@@ -4,7 +4,8 @@
 // void namaste();
 // void bonjour();
 // int factorial(int n);
-int fibonacci(int n);
+// int fibonacci(int n);
+void printAddress(int n);
 
 int main()
 {
@@ -240,13 +241,18 @@ int main()
    printf("x=%d\n",x);
    printf("*ptr = %d\n",*ptr);*/
 
-   /*22. Print value of i from pointer to pointer*/
+   /*22. Print value of i from pointer to pointer
 
    int i=22;
    int *ptr = &i;
    int **pptr = &ptr;
-   printf("%d",**pptr);
+   printf("%d",**pptr);*/
 
+   /*23. Will the address output be same?*/
+
+   int n=4;
+   printf("%p\n",&n);
+   printAddress(n);
    return 0;
 }
 
@@ -269,7 +275,7 @@ void bonjour()
    return num;
 }*/
 
-int fibonacci(int n){
+/*int fibonacci(int n){
    if(n==1 || n==0){
       if(n==0){
          return 0;
@@ -283,4 +289,8 @@ int fibonacci(int n){
    int fibN = fibN1 + fibN2;
    // printf("fib of %d is: %d",n,fibN);
    return fibN;
+}*/
+
+void printAddress(int n){
+   printf("%p\n",&n);
 }
