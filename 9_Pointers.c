@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void square(int n);
+void _square(int *n);
+
 /*pointers: 
 A variable that stores the memory address of another variable
 
@@ -48,6 +51,29 @@ printf("%d\n",*(&age));*/
 /*Pointer to Pointer
 A variable that stores the memory address of another pointer*/ 
 
-/*Pointers in Function call*/
+/*Pointers in Function call
+call by value: we pass value of variable as argument
+call by reference: we pass address of variable as argument*/
+
+int number = 4;
+
+square(number); 
+printf("number = %d\n", number);
+_square(&number); 
+printf("number = %d\n", number);
+
 return 0;
+}
+
+void square(int n) {
+
+n=n*n;
+printf("square = %d\n", n);
+}
+
+//Pointers changes the value and update it,here it sets as 16
+void _square(int *n) {
+
+*n=(*n)*(*n);//4 * 4
+printf("square = %d\n", *n);
 }
