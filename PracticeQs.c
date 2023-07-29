@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 // void namaste();
 // void bonjour();
 // int factorial(int n);
 // int fibonacci(int n);
 // void printAddress(int n);
-void sumnproduct(int a,int b);
-void _sumnproduct(int *a,int *b);
+void sumnproduct(int a, int b, int *sum, int *product, int *avg);
 
 int main()
 {
@@ -217,8 +216,8 @@ int main()
    printf( "Factorial is: %d",f);*/
 
    /*20. Write a fun to print n terms of the fibonacci sequence
-   
-   
+
+
    int n;
    printf("Enter number: ");
    scanf("%d",&n);
@@ -235,11 +234,11 @@ int main()
    printf("x=%d\n",x);
    printf("*ptr = %d\n",*ptr);
 
-   *ptr += 5;   
+   *ptr += 5;
    printf("x=%d\n",x);
    printf("*ptr = %d\n",*ptr);
 
-   (*ptr)++;   
+   (*ptr)++;
    printf("x=%d\n",x);
    printf("*ptr = %d\n",*ptr);*/
 
@@ -258,11 +257,11 @@ int main()
 
    /*24.Write a function to calculate the sum,product&average of 2 numbers.Print that average in the main function*/
 
-   int a = 10,b=10;
-   int average = (a+b)/2;
-   printf("Average of 2 number is: %d\n",average);
-   sumnproduct(a,b);
-   _sumnproduct(&a,&b);
+   int a = 3, b = 5;
+   int sum, product, avg;
+   sumnproduct(a, b, &sum, &product, &avg);
+
+   printf("sum=%d, product=%d, Average=%d\n ", sum, product, avg);
    return 0;
 }
 
@@ -301,20 +300,15 @@ void bonjour()
    return fibN;
 }*/
 
-void printAddress(int n){
-   printf("%p\n",&n);
+void printAddress(int n)
+{
+   printf("%p\n", &n);
 }
 
-void sumnproduct(int a,int b){
-   int sum = a+b;
-   printf("Sum of 2 number is: %d\n",sum);
-   int product = a*b;
-   printf("product of 2 number is: %d\n",product);
-}
+void sumnproduct(int a, int b, int *sum, int *product, int *avg)
+{
 
-void _sumnproduct(int *a,int *b){
-   int sum = (*a)+*b;
-   printf("Sum of 2 number is: %d\n",sum);
-   int product = (*a)*(*b);
-   printf("product of 2 number is: %d\n",product);
+   *sum = a + b;
+   *product = a * b;
+   *avg = (a + b) / 2;
 }
