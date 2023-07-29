@@ -5,7 +5,9 @@
 // void bonjour();
 // int factorial(int n);
 // int fibonacci(int n);
-void printAddress(int n);
+// void printAddress(int n);
+void sumnproduct(int a,int b);
+void _sumnproduct(int *a,int *b);
 
 int main()
 {
@@ -248,11 +250,19 @@ int main()
    int **pptr = &ptr;
    printf("%d",**pptr);*/
 
-   /*23. Will the address output be same?*/
+   /*23. Will the address output be same?
 
    int n=4;
    printf("%p\n",&n);
-   printAddress(n);
+   printAddress(n);*/
+
+   /*24.Write a function to calculate the sum,product&average of 2 numbers.Print that average in the main function*/
+
+   int a = 10,b=10;
+   int average = (a+b)/2;
+   printf("Average of 2 number is: %d\n",average);
+   sumnproduct(a,b);
+   _sumnproduct(&a,&b);
    return 0;
 }
 
@@ -293,4 +303,18 @@ void bonjour()
 
 void printAddress(int n){
    printf("%p\n",&n);
+}
+
+void sumnproduct(int a,int b){
+   int sum = a+b;
+   printf("Sum of 2 number is: %d\n",sum);
+   int product = a*b;
+   printf("product of 2 number is: %d\n",product);
+}
+
+void _sumnproduct(int *a,int *b){
+   int sum = (*a)+*b;
+   printf("Sum of 2 number is: %d\n",sum);
+   int product = (*a)*(*b);
+   printf("product of 2 number is: %d\n",product);
 }
