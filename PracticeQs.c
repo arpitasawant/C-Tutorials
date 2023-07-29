@@ -255,13 +255,26 @@ int main()
    printf("%p\n",&n);
    printAddress(n);*/
 
-   /*24.Write a function to calculate the sum,product&average of 2 numbers.Print that average in the main function*/
+   /*24.Write a function to calculate the sum,product&average of 2 numbers.Print that average in the main function
 
    int a = 3, b = 5;
    int sum, product, avg;
    sumnproduct(a, b, &sum, &product, &avg);
 
-   printf("sum=%d, product=%d, Average=%d\n ", sum, product, avg);
+   printf("sum=%d, product=%d, Average=%d\n ", sum, product, avg);*/
+
+   /*25. Write a program to enter price of 3 items and print their final cost with gst*/
+
+   float price[3];
+
+   printf("Enter Price: \n");
+   scanf("%f",&price[0]);
+   scanf("%f",&price[1]);
+   scanf("%f",&price[2]);
+   
+   printf("total price 1: %f\n",price[0]+(0.18*price[0]));
+   printf("total price 1: %f\n",price[1]+(0.18*price[0]));
+   printf("total price 1: %f\n",price[2]+(0.18*price[0]));
    return 0;
 }
 
