@@ -27,7 +27,11 @@ printf("%p",&age);
 printf("%p",ptr);
 printf("%p",&ptr);
 
-
+Pointer Arithmetic:
+Pointer can be incremented and decremented-->
+int age = 22;
+int *ptr = &age;
+ptr++;
 */
 
 int main()
