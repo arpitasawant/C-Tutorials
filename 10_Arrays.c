@@ -19,8 +19,14 @@ void printNumbers(int arr[],int n);
 or
 void printNumbers(int *arr,int n);
 
-function call
+function call:
+
 printNumbers(arr,n);
+
+Multidimensional Arrays:
+2d arrays
+
+int arr[][] = {{1,2},{3,4}};//Declare
 */
 
 void printNumbers(int arr[], int n);

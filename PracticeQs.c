@@ -263,7 +263,7 @@ int main()
 
    printf("sum=%d, product=%d, Average=%d\n ", sum, product, avg);*/
 
-   /*25. Write a program to enter price of 3 items and print their final cost with gst*/
+   /*25. Write a program to enter price of 3 items and print their final cost with gst
 
    float price[3];
 
@@ -274,7 +274,18 @@ int main()
    
    printf("total price 1: %f\n",price[0]+(0.18*price[0]));
    printf("total price 1: %f\n",price[1]+(0.18*price[0]));
-   printf("total price 1: %f\n",price[2]+(0.18*price[0]));
+   printf("total price 1: %f\n",price[2]+(0.18*price[0]));*/
+
+   /*26.Write a function to count the number of odd numbers in an array
+
+   int count = 0;
+   int arr[]={1,2,3,7,5};
+   for(int i=0;i<5;i++){
+      if(arr[i] % 2 !=0){
+         count++;
+      }
+   }
+   printf("Total count of odd numbers: %d",count);*/
    return 0;
 }
 
