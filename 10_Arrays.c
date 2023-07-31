@@ -19,7 +19,7 @@ void printNumbers(int arr[],int n);
 or
 void printNumbers(int *arr,int n);
 
-function call:
+Function call:
 
 printNumbers(arr,n);
 
