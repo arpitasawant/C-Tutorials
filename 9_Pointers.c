@@ -6,7 +6,7 @@ void swap(int a, int b);
 void _swap(int *a,int *b);
 
 
-/*pointers:
+/*Pointers:
 A variable that stores the memory address of another variable
 
 Syntax:
