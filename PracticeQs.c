@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <math.h>
 
-// void namaste();
-// void bonjour();
-// int factorial(int n);
-// int fibonacci(int n);
-// void printAddress(int n);
+void namaste();
+void bonjour();
+int factorial(int n);
+int fibonacci(int n);
+void printAddress(int n);
 void sumnproduct(int a, int b, int *sum, int *product, int *avg);
+void reverse(int arr[], int n);
+int printArray(int arr[], int n);
 
 int main()
 {
@@ -271,7 +273,7 @@ int main()
    scanf("%f",&price[0]);
    scanf("%f",&price[1]);
    scanf("%f",&price[2]);
-   
+
    printf("total price 1: %f\n",price[0]+(0.18*price[0]));
    printf("total price 1: %f\n",price[1]+(0.18*price[0]));
    printf("total price 1: %f\n",price[2]+(0.18*price[0]));*/
@@ -286,10 +288,24 @@ int main()
       }
    }
    printf("Total count of odd numbers: %d",count);*/
+
+   /*27.Write a function to revere an array*/
+
+   int arr[] = {1, 2, 3, 4, 5};
+   for (int i = 4; i >= 0; i--)
+   {
+      printf("%d\n", arr[i]);
+   }
+
+   // classical method
+
+   reverse(arr, 5);
+   printArray(arr, 5);
+
    return 0;
 }
 
-/*void namaste()
+void namaste()
 {
    printf("Namaste\n");
 }
@@ -297,32 +313,38 @@ int main()
 void bonjour()
 {
    printf("Bonjour\n");
-}*/
+}
 
-/*int factorial(int n){
-   if(n==1){
+int factorial(int n)
+{
+   if (n == 1)
+   {
       return 1;
    }
-   int fact = factorial(n-1);
-   int num = fact*n;
+   int fact = factorial(n - 1);
+   int num = fact * n;
    return num;
-}*/
+}
 
-/*int fibonacci(int n){
-   if(n==1 || n==0){
-      if(n==0){
+int fibonacci(int n)
+{
+   if (n == 1 || n == 0)
+   {
+      if (n == 0)
+      {
          return 0;
       }
-      if(n==1){
-      return 1;
+      if (n == 1)
+      {
+         return 1;
+      }
    }
-   }
-   int fibN1 = fibonacci(n-1);
-   int fibN2 = fibonacci(n-2);
+   int fibN1 = fibonacci(n - 1);
+   int fibN2 = fibonacci(n - 2);
    int fibN = fibN1 + fibN2;
    // printf("fib of %d is: %d",n,fibN);
    return fibN;
-}*/
+}
 
 void printAddress(int n)
 {
@@ -335,4 +357,21 @@ void sumnproduct(int a, int b, int *sum, int *product, int *avg)
    *sum = a + b;
    *product = a * b;
    *avg = (a + b) / 2;
+}
+
+void reverse(int arr[], int n)
+{
+   for (int i = 0; i < n / 2; i++)
+   {
+      int firstval = arr[i];
+      int secval = arr[n - i - 1];
+      arr[n - i - 1] = firstval;
+      arr[i] = secval;
+   }
+}
+int printArray(int arr[], int n){
+   for(int i=0;i<n;i++){
+      printf("%d\t",arr[i]);
+   }
+   printf("\n");
 }

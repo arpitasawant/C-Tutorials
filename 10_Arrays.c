@@ -49,7 +49,7 @@ int main()
     /*Array is a Pointer:
     int *ptr = &arr[0];
     or
-    int *ptr = arr; 
+    int *ptr = arr;
 
     int aadhar[5];
     int *ptr = &aadhar[0];
@@ -66,8 +66,12 @@ int main()
         // another way
         //  printf("%d index=%d \n",i,aadhar[i]);
     }*/
-    int arr[]={1,2,3,4,5};
-    printNumbers(arr,5);
+    int arr[] = {1, 2, 3, 4, 5};
+    // printNumbers(arr, 5);
+
+    printf("%d \n",*(arr+2));//arr[2]
+    printf("%d \n",*(arr+5));//o/p=0
+
     return 0;
 }
 
