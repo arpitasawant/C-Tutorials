@@ -23,6 +23,18 @@ String Functions:
 
 fgets(str,n,file): stops when n-1 chars input or new line is entered
 puts(str): output a string
+
+
+
+String using Pointers:
+
+char *str = "Hello World";
+
+Store string in memory & the assigned address is stored in the char pointer 'str'
+
+char *str = "Hello World"; //can be reinitialized
+
+char str[]= "Hello World"; //cannot be reinitialized
 */
 
 int main()
