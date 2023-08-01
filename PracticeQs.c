@@ -9,6 +9,7 @@ void printAddress(int n);
 void sumnproduct(int a, int b, int *sum, int *product, int *avg);
 void reverse(int arr[], int n);
 int printArray(int arr[], int n);
+void printString(char arr[]);
 
 int main()
 {
@@ -289,7 +290,7 @@ int main()
    }
    printf("Total count of odd numbers: %d",count);*/
 
-   /*27.Write a function to revere an array*/
+   /*27.Write a function to revere an array
 
    int arr[] = {1, 2, 3, 4, 5};
    for (int i = 4; i >= 0; i--)
@@ -300,8 +301,15 @@ int main()
    // classical method
 
    reverse(arr, 5);
-   printArray(arr, 5);
+   printArray(arr, 5);*/
 
+   /*28.Create a string firstname and lastname to store details of user and print all the characters using a loop*/
+
+   char firstname[] = "Arpita";
+   char lastname[] = "Sawant";
+
+   printString(firstname);
+   printString(lastname);
    return 0;
 }
 
@@ -372,6 +380,13 @@ void reverse(int arr[], int n)
 int printArray(int arr[], int n){
    for(int i=0;i<n;i++){
       printf("%d\t",arr[i]);
+   }
+   printf("\n");
+}
+
+void printString(char arr[]){
+   for(int i=0;arr[i]!='\0';i++){
+      printf("%c",arr[i]);
    }
    printf("\n");
 }
