@@ -8,12 +8,11 @@ Initializing:
 char name[] = {'A','R','P','I','T','A'};
 char name[] = "Arpita";
 
-String Format Specifier:
-%s
+String Format Specifier: %s
 char name[]="Arpita";
 printf("%s",name);
 
-IMPORTANT!!!...........
+IMPORTANT!!!.............
 
 scanf() cannot input multi-word strings with spaces
 here,
