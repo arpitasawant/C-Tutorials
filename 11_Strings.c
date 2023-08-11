@@ -9,7 +9,7 @@ char name[] = {'A','R','P','I','T','A'};
 char name[] = "Arpita";
 
 String Format Specifier: %s
-char name[]="Arpita";
+char name[]="arpita";
 printf("%s",name);
 
 IMPORTANT!!!.............
