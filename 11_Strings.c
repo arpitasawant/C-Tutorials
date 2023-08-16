@@ -6,7 +6,7 @@ null character denotes string termination
 Initializing:
 
 char name[] = {'A','R','P','I','T','A'};
-char name[] = "Arpita";
+char name[] = "arpita";
 
 String Format Specifier: %s
 char name[]="Arpita";
