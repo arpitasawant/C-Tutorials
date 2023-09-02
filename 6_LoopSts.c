@@ -3,7 +3,7 @@ int main(){
     /*Loop Control Instructions:
     To repeat some parts of the program
 
-    types: 
+    Types:
         for,while,do while
     i++ use,then increase
     ++i increase,then use    
