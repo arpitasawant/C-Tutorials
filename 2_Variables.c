@@ -5,7 +5,7 @@
 //There are 32 keywords in C
 
 /*
-Format Specifiers:
+format Specifiers:
 1. Integers
 printf("age is %d",age);
 
