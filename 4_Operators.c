@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 /*Operators Precedence:
-
-
 1. !
 2. * / %
 3. +-
