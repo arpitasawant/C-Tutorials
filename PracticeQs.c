@@ -13,7 +13,7 @@ void printString(char arr[]);
 
 int main()
 {
-   /* 1.Calculate area of a square(side is given)
+   /* 1.Calculate area of a square (side is given)
    float side;
    scanf("%f",&side);
    float area = side * side;
