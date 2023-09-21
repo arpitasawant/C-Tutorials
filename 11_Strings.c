@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/*Strings: A character array terminated by a '\0'(null character)
+/*
+Strings : A character array terminated by a '\0'(null character)
 null character denotes string termination
 
-Initializing:
+Initializing
 
 char name[] = {'A','R','P','I','T','A'};
 char name[] = "arpita";
