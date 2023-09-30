@@ -12,7 +12,7 @@ printf("age is %d",age);
 2.Real numbers
 printf("value of pi is is %f",pi);
 
-3. char
+3.Char
 printf("char is %c",ch);
 
 Compilation:
