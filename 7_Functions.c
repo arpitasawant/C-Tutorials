@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*Functions: block of code that performs particular task
+/*Functions:  block of code that performs particular task....
+
 --> It can be used multiple times
 --> increase code reusability
 
