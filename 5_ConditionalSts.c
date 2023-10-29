@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*Conditional Statements
+/*Conditional Statements...
 1. if-else
 2. switch*/
 int main()
