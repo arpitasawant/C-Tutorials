@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*Operators Precedence:
+/* Operators Precedence:
 1. !
 2. * / %
 3. +-
@@ -9,7 +9,7 @@
 6. &&
 7. ||
 8. =
-*/
+ */
 
 int main()
 {
