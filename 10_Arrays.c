@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 /*Arrays: Collection of similar data types stored at contiguous memory locations
 
 Syntax:
