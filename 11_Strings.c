@@ -13,7 +13,7 @@ String Format Specifier: %s
 char name[]="Arpita";
 printf("%s",name);
 
-IMPORTANT!!!.............
+IMPORTANT!!!...............
 
 scanf() cannot input multi-word strings with spaces
 here,
