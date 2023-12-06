@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main(){
-    /*Loop Control Instructions:
+    /*
+    Loop Control Instructions:
     To repeat some parts of the program
 
     Types:
         for,while,do while
+        
     i++ use,then increase
     ++i increase,then use    
      
