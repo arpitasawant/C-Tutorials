@@ -1,4 +1,4 @@
-//Variables:
+//Variables
 // Variable is the name of a memory location that stores some data
 
 //Keywords: Reserved words that have special meaning to the compiler
